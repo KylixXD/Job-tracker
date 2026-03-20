@@ -13,7 +13,7 @@ function ListaVagas({ vagas, filtro, setFiltro}){
             </div>
       
            
-    {/* Essa parte vai percorrer o arreio de vagas e vai exibir um card para cada */}
+    {/* Essa parte vai percorrer o arrey de vagas e vai exibir um card para cada */}
     {vagas.map(vaga => (
      <div key={vaga.id}>
         <h3>{vaga.empresa}</h3>
