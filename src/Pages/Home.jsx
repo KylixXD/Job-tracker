@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-function Home() {
+function Home({ vagas}) { // Thauan
     return(
         <>
             <h1>Teste Home</h1>
