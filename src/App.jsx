@@ -10,7 +10,7 @@ function App() {
   const [vagas, setVagas] = useState([ // Thauan - Adicionei um objeto para armazenar as vagas de emprego, com alguns dados de exemplo
     {id: 1, empresa: "Mercado", cargo:"Vendedor", status:"entrevista"},
     {id: 2, empresa: "Iteam", cargo:"Professor", status:"aprovada"},
-    {id: 3, empresa: "Google", cargo:"Desencolvedor", status:"rejeitada"},
+    {id: 3, empresa: "Google", cargo:"Desenvolvedor", status:"rejeitada"},
   ])
 
   return (
